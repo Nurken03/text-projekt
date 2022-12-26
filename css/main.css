@@ -1,0 +1,27 @@
+.card{
+    width: 80px;
+    height: 60px;
+    background-color: blue;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1px;
+    border-radius: 10px;
+    animation-name: css;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 100px;
+}
+
+@keyframes css{
+    25%{
+        transform: rotate(35deg);
+    }
+
+    50%{
+        transform: translateX(360px) rotate(360deg);
+        background-color: aqua;
+    }
+}
